@@ -1,0 +1,17 @@
+body{ 
+    margin: 0;
+}
+.huvud{
+    background-color: rgb(245, 0, 0);
+    border-radius: 50px;
+}
+nav{
+    color: #ffffff;
+}
+ul{
+    margin: 0;
+    text-align: center;
+    font-family: fantasy;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
