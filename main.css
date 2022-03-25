@@ -7,6 +7,7 @@ body{
 }
 nav{
     color: #ffffff;
+    font-size: 20px;
 }
 ul{
     margin: 0;
@@ -15,3 +16,27 @@ ul{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
 }
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: White;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
