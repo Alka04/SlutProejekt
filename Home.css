@@ -1,0 +1,12 @@
+.pic{
+    border-radius: 50%;    
+    display: block;
+    margin-left: auto;
+    padding-top: 0%;
+}
+.qwerty{
+    margin-top: 500px;
+}
+.texty{
+    font-family: 'Times New Roman', Times, serif;
+}
