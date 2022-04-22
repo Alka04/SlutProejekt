@@ -1,0 +1,7 @@
+body{
+    background-image: linear-gradient(90deg, orange, orange, yellow);
+}
+img{
+    border: solid 5px #555;
+    width: 300px;
+}
