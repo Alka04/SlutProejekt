@@ -10,16 +10,6 @@ img{
     float: right;
     font-size: 18px;
 }
-ul.b{
-    list-style-type: square;
-    display: block;
-    text-align: left;
-}
-ul.a{
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    list-style: none;
-}
 h3 {
     text-align: center;
     font-size: 25px;
@@ -39,11 +29,3 @@ iframe{
     border: #555;
 }
 
-
-@media screen and (max-width: 1860px) {
-    ul.a{
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr ;
-    }
-    
-}
