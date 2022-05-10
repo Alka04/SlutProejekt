@@ -46,3 +46,10 @@ p{
     }
     
 }
+@media screen and (max-width: 700px) {
+    iframe{
+        width: 267px;
+        height: 150px;
+    }
+    
+}
