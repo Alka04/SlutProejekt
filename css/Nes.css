@@ -2,15 +2,12 @@ body{
     background-image: linear-gradient(90deg, rgb(121, 114, 114), red, grey);
     font-family: Arial, Helvetica, sans-serif;
 }
-img{
-    border: solid 5px #555;
-    width: 300px;
-}
-.texly {
+.white-man{
+    color: white;
     float: right;
     font-size: 18px;
 }
-.t2{
-    text-align: center;
+main p:not(ul p){
     color: white;
+    font-weight: 600;
 }
