@@ -23,3 +23,15 @@ table {
 h4{
     text-align: center;
 }
+@media screen and (max-width: 920px) {
+    table {
+        width: 600px;
+
+    }  
+}
+@media screen and (max-width: 620px) {
+    table {
+        width: 300px;
+
+    }
+}
