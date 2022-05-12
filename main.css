@@ -17,7 +17,7 @@ nav{
     text-align: center;
     font-family: fantasy;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     list-style: none;
 }
 a:link {
@@ -51,7 +51,20 @@ a:link {
     margin-left: auto;
     margin-right: auto;
   }
-  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #1E3F5a;
+    color: white;
+    height: 50px;
+    border-top: solid 1px gold;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    font-weight: none;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
   @media screen and (max-width:800px) {
       
     a[onclick="burgermenu()"]{

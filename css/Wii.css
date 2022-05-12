@@ -20,6 +20,19 @@ table {
     margin-right: auto;
     border-collapse: collapse;
 }
+.first{
+    background-color: rgb(0, 255, 255);
+}
+.secound{
+    background-color: black;
+    color: white;
+}
+th{
+    background-color: red;
+}
+td{
+    background-color: white;
+}
 h4{
     text-align: center;
 }
