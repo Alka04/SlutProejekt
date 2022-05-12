@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
     <link rel="stylesheet" href="main.css"> 
+    <link rel="stylesheet" href="css/forms.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/Burger.js" defer></script>
 </head>
@@ -27,7 +28,6 @@
                 <li><a href=Wii.html>Wii</a></li>
                 <li><a href=Wii_u.html>Wii u</a></li>
                 <li><a href=Switch.html>Nintendo switch</a></li>
-                <li><a href=Index.html>Home</a></li>
             </ul>
         </nav>
     </header>
@@ -35,6 +35,44 @@
     <audio autoplay loop>
         <source src="audio/Emusic.mp3" type="audio/mp3">
     </audio>
+
+    <main>
+        <form action="next.html" method="GET">
+            <label for="fn">Förnamn: </label><br>
+            <input type="text" id="fn" name="fn"><br>
+            <label for="en">Efternamn: </label><br> 
+            <input type="text" id="en" name="en"><br>
+            
+            <p>Välj ditt favorit Web språk:</p> 
+            <input type="radio" id="html" name="favoritspråk" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="favoritspråk" value="css"> 
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="favoritspråk" value="Javascript">
+            <label for="javascript"> Javascript</label><br>
+            
+            <p>Vilka fordon har du?</p>
+            
+            <input type="checkbox" id="cykel" name="fordon1" value="Cykel">
+            <label for="cykel">cykel</label><br> 
+            <input type="checkbox" id="bil" name="fordon2" value="Bil">
+            <label for="bil">Bil</label><br>
+            <input type="checkbox" id="båt" name="fordon3" value="Båt">
+            <label for="båt">Båt</label><br> 
+            
+            <input type="submit" value="submit">
+        </form>
+    </main>
+
+    <div class="grid-container">
+        <div class="grid-item"><li><a href=Index.html>Home</a></li></div>
+    </div>
+
+
+    <footer>
+        <p>Kontakta Skaparen<br>
+        <a href="mailto:alka04006@utb.vaxjo.se">alka04006@utb.vaxjo.se</a></p>
+    </footer>
 
 </body>
 </html>
