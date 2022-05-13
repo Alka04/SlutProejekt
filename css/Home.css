@@ -1,4 +1,4 @@
-.pic{
+.pic{ /* ändrar utseendet på bilderna */
     border-radius: 50%;    
     display: block;
     margin-left: auto;
@@ -6,23 +6,23 @@
     width: 300px;
     height: 300px;
 }
-.qwerty{
+.qwerty{/* Gör lite utrymme mellan text och sidorna */
     margin-top: 100px;
     padding: 10px;
 
 }
-.texty{
+.texty{/* ändrar lite font s´tyle samt storlek */
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
 }
-.lefty{
+.lefty{/* ändrar bilden och placerar den på den vänstra */
     border-radius: 50%;    
     display: block;
     padding-top: 0%;
     width: 300px;
     height: 300px;
 }
-.mid{
+.mid{/* ändrar bilden och placerar den i mitten */
     border-radius: 50%;    
     display: block;
     margin-right: auto;
@@ -31,13 +31,13 @@
     width: 300px;
     height: 300px;
 }
-body{
+body{/* ändrar bakgrunden */
     background-image: linear-gradient(300deg, white, rgba(255, 0, 0, 0.6), white);
 }
-h1{
+h1{/* gör lite mellanrum mellan huvudtexten och allt annat */
     padding: 10px;
 }
-.grid-container {
+.grid-container {/* placering av lokala menyn */
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto, auto;
@@ -48,13 +48,13 @@ h1{
     padding: 5px;
     list-style: none;
   }
-  .grid-item {
+  .grid-item {/* hur den lokala meny ser ut */
     background-color: #1E3F5a;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     text-align: center;
     font-size: 18px;
   }
-  div li a{
+  div li a{/* gör den klickbara utan lite större i den lokalamenyn */
       display: block;
   }

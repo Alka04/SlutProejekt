@@ -7,55 +7,55 @@ img{ /*  */
     float: right;
     font-size: 18px;
 }
-ul.b{ /*  */
+ul.b{ /* ändrar listan */
     list-style-type: square;
     display: block;
     text-align: left;
 }
-ul.a{ /*  */ 
+ul.a{ /* gör så att listan är horizantal */ 
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     list-style: none;
 }
-h3 {/*  */
+h3 {/* ändrar lite text */
     text-align: center;
     font-size: 25px;
 }
-.right{ /*  */
+.right{ /* sätter text/ biler på höger sida */
     float: right;
 }
-li.b{ /*  */
+li.b{ /* ändrar liote på listan */
     padding: 25px;
 }
-.thick{ /*  */
+.thick{ /* text storleken blir större */
     font-size: 20px;
 }
-iframe{ /*  */
+iframe{ /* storlek på videorna */
     width: 560px;
     height: 315px;
     border:  5px solid #000000;
 }
-p :first-of-type{ /*  */
+p :first-of-type{ /* ändrar mellanrummet mellan den första p taggen och allt annat */
     padding: 10px;
 }
-h2{ /*  */
+h2{ /* ändrar mellanrummet mellan h2 och allt annat */
     padding: 1em;
 }
-h1{ /*  */
+h1{ /* ändrar storleken på h1 */
     font-size: 36px;
 }
-.float{ /*  */
+.float{ /* gör så att texten blir på höger sida */
     float: right;
     text-align: center;
 }
-@media screen and (max-width: 1860px) { /*  */
+@media screen and (max-width: 1860px) { /* ändrar videornas position */
     ul.a{
         grid-template-rows: 1fr;
         grid-template-columns: 1fr ;
     }
     
 }
-@media screen and (max-width: 700px){ /*  */
+@media screen and (max-width: 700px){ /* ändra videornas storlek */
     iframe{
         width: 267px;
         height: 150px;
