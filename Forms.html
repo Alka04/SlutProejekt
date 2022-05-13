@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
-    <link rel="stylesheet" href="main.css"> 
-    <link rel="stylesheet" href="css/forms.css"> 
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/forms.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/Burger.js" defer></script>
 </head>
+
 <body>
     <header class="huvud">
         <nav>
 
-            <a href="#nav"onclick="burgermenu()">
+            <a href="#nav" onclick="burgermenu()">
                 <i class="fa fa-bars"></i>
             </a>
 
@@ -37,42 +39,48 @@
     </audio>
 
     <main>
-        <form action="next.html" method="GET">
+        <form action="index.html" method="GET">
             <label for="fn">Förnamn: </label><br>
             <input type="text" id="fn" name="fn"><br>
-            <label for="en">Efternamn: </label><br> 
+            <label for="en">Efternamn: </label><br>
             <input type="text" id="en" name="en"><br>
-            
-            <p>Välj ditt favorit Web språk:</p> 
-            <input type="radio" id="html" name="favoritspråk" value="HTML">
-            <label for="html">HTML</label><br>
-            <input type="radio" id="css" name="favoritspråk" value="css"> 
-            <label for="css">CSS</label><br>
-            <input type="radio" id="javascript" name="favoritspråk" value="Javascript">
-            <label for="javascript"> Javascript</label><br>
-            
-            <p>Vilka fordon har du?</p>
-            
-            <input type="checkbox" id="cykel" name="fordon1" value="Cykel">
-            <label for="cykel">cykel</label><br> 
-            <input type="checkbox" id="bil" name="fordon2" value="Bil">
-            <label for="bil">Bil</label><br>
-            <input type="checkbox" id="båt" name="fordon3" value="Båt">
-            <label for="båt">Båt</label><br> 
-            
+
+            <p>Välj din favorit Konsol:</p>
+            <input type="radio" id="Color_Tv_Game" name="favoritspråk" value="Color_Tv_Game">
+            <label for="Color_Tv_Game">Color Tv Game</label><br>
+            <input type="radio" id="nes" name="favoritspråk" value="nes">
+            <label for="nes">Nintendo Entertainment System</label><br>
+            <input type="radio" id="Snes" name="favoritspråk" value="snes">
+            <label for="snes"> Super Nintendo Entertainment System</label><br>
+            <input type="radio" id="N64" name="favoritspråk" value="N64">
+            <label for="N64">Nintendo 64</label><br>
+            <input type="radio" id="GameCube" name="favoritspråk" value="GameCube">
+            <label for="GameCube">GameCube</label><br>
+            <input type="radio" id="Wii" name="favoritspråk" value="Wii">
+            <label for="Wii">Wii</label><br>
+            <input type="radio" id="Wii_u" name="favoritspråk" value="Wii_u">
+            <label for="Wii_u">Wii u</label><br>
+            <input type="radio" id="nsw" name="favoritspråk" value="nsw">
+            <label for="nsw">Nintendo switch</label><br>
+
+
+
             <input type="submit" value="submit">
         </form>
     </main>
 
     <div class="grid-container">
-        <div class="grid-item"><li><a href=Index.html>Home</a></li></div>
+        <div class="grid-item">
+            <a href=Index.html>Home</a>
+        </div>
     </div>
 
 
     <footer>
-        <p>Kontakta Skaparen<br>
-        <a href="mailto:alka04006@utb.vaxjo.se">alka04006@utb.vaxjo.se</a></p>
+        <p>Information<br>
+            <a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></p>
     </footer>
 
 </body>
+
 </html>
