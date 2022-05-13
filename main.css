@@ -1,21 +1,21 @@
-body {
+body { /* Tar bort magin på alla sidor */
     margin: 0;
 }
 
-.huvud {
+.huvud {/* ändrar hur headern ser ut */
     background-color: rgb(245, 0, 0);
     border-radius: 50px;
     border: 1px solid black;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-nav {
+nav {/* ändrar på texten i headern */
     color: #ffffff;
     font-size: 20px;
     display: block;
 }
 
-ul {
+ul {/* Ändrar på listan till headern */
     margin: 0;
     text-align: center;
     font-family: fantasy;
@@ -24,7 +24,7 @@ ul {
     list-style: none;
 }
 
-a:link {
+a:link {/* LoVe Focus HAte */
     color: white;
     background-color: transparent;
     text-decoration: none;
@@ -54,14 +54,14 @@ a:active {
     text-decoration: underline;
 }
 
-a[onclick="burgermenu()"] {
+a[onclick="burgermenu()"] {/* Ändrar lite på burger menyn */
     display: none;
     color: var(--White);
     margin-left: auto;
     margin-right: auto;
 }
 
-footer {
+footer {/* Ändrar hur själva footern ska se ut */
     text-align: center;
     padding: 3px;
     background-color: #1E3F5a;
@@ -75,7 +75,7 @@ footer {
     margin-bottom: 0;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:800px) {/* Bestämmer när headern ska bli till burger menyn */
     a[onclick="burgermenu()"] {
         display: block;
         margin-left: 50%;

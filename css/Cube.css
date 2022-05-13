@@ -1,12 +1,8 @@
-body{
+body{/* Bestämmer bakgrunds färgen till gamecube sidan */
     background-image: linear-gradient(300deg, rgba(0, 0, 0, 0.5), purple, rgba(0, 0, 0, 0.5));
     font-family: Arial, Helvetica, sans-serif;
 }
-main p:not(ul p){
+main p:not(ul p){/* p taggar utanför ul taggar blir färgade vita */
     color: white;
     font-weight: 600;
-}
-.float{
-    float: right;
-    text-align: center;
 }

@@ -1,15 +1,11 @@
-body{
+body{ /*  */
     background-image: linear-gradient(300deg, black, grey, orange, pink, pink, green);
     font-family: Arial, Helvetica, sans-serif;
 }
-main p:first-of-type{
+main p:first-of-type{/* sätter första p taggen att text färgen ska v ara svart */
     color: black;
 }
-main p:not(ul p){
+main p:not(ul p){/* sätter så att alla andra p taggar förutom de som är i en ul är vit färgade */
     color: white;
     font-weight: 600;
-}
-.float{
-    float: right;
-    text-align: center;
 }

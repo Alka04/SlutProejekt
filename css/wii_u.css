@@ -1,15 +1,11 @@
-body{
+body{/* bestämmer bakgrunds färg till wii u sidan */
     background-image: linear-gradient(300deg, white, rgba(0, 0, 255, 0.5), #000001c0, grey);
     font-family: Arial, Helvetica, sans-serif;
 }
-main p:first-of-type{
+main p:first-of-type{/* första p taggen har färgen svart */
     color: black;
 }
-p{
+p{/* resterande p taggar har vit färg */
     color: white;
     font-weight: 600;
-}
-.float{
-    float: right;
-    text-align: center;
 }
