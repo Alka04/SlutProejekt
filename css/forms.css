@@ -25,6 +25,9 @@ body {/* så att footern och min lokal meny lägger sig längst ner */
 div{
     margin-top: 10px;
 }
+p{
+    font-weight: 600;
+}
 dt{
     font-size: 24px;
 }
