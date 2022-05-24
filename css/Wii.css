@@ -38,6 +38,9 @@ table {/* ändrar table position */
 th {/* bakgrundsfärg för den tredje tabeln */
     background-color: red;
 }
+tr > td{
+    font-size: 18px;
+}
 
 tr:nth-child(even) {/* zebra striping */
     background-color: white;
@@ -47,7 +50,7 @@ tr:nth-child(odd) {/* zebra striping */
     background-color: red;
 }
 
-h4 {/* sätter h2 i mitten */
+.fyra {/* sätter texten i mitten */
     text-align: center;
 }
 

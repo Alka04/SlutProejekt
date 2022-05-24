@@ -7,17 +7,19 @@ img{ /*  */
     float: right;
     font-size: 18px;
 }
-ul.b{ /* ändrar listan */
-    list-style-type: square;
+ol.b{ /* ändrar listan */
     display: block;
     text-align: left;
+    font-weight: 600;
 }
 ul.a{ /* gör så att listan är horizantal */ 
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     list-style: none;
 }
-h3 {/* ändrar lite text */
+#tre {/* ändrar lite text */
+    padding: 0em;
+    margin: 0;
     text-align: center;
     font-size: 25px;
 }
