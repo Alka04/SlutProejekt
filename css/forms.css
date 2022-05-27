@@ -52,4 +52,7 @@ table {/* Placera tablen i mitten */
     table{
         margin-left: 0;
     }
+    textarea{
+        margin-left: 0;
+    }
 }
