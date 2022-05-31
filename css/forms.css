@@ -45,6 +45,9 @@ table {/* Placera tablen i mitten */
     margin-top: 25px;
     margin-left: 45%;
 }
+ol{
+    text-align: center;
+}
 @media screen and (max-width:500px) {/* Placera forms och table mer till vänster vid en viss bred på sidan */
     form {
         margin-left: 0;
