@@ -42,7 +42,7 @@
         <form action="index.html" method="GET">
             <div>
             <label for="fn">Förnamn: </label>
-            <input type="text" id="fn" name="fn">
+            <input type="text" id="fn" name="fn" required>
             </div>
             <div>
             <label for="en">Efternamn: </label>
@@ -75,7 +75,7 @@
             <label for="GameCube">GameCube</label>
             </div>
             <div>
-            <input type="radio" id="Wii" name="favoritspråk" value="Wii">
+            <input type="radio" id="Wii" name="favoritspråk" value="Wii" checked>
             <label for="Wii">Wii</label>
             </div>
             <div>
@@ -173,6 +173,35 @@
           <svg> <!--gör en form utan att behöva använda sig av bilder, man gör formen själv, i detta fallet skapas en cirkel-->
             <circle cx="50" cy="50" r="40" stroke="Purple" stroke-width="4" fill="Pink" />
         </svg>
+
+        <form>
+          <fieldset>
+           <legend>När fyller du år?:</legend>
+           <label for="birthday">Birthday:</label>
+           <input type="date" id="birthday" name="birthday">
+           <label for="tel">Telefon-Nummer:</label>
+           <input type="text" id="tel" name="tel">
+           <input type="hidden" id="custId" name="custId" value="3487">
+           <label for="email">Email</label>
+           <input type="text" id="email" name="email">
+           <input type="hidden" id="custId" name="custId" value="3487">
+          </fieldset>
+         </form>
+
+         <div class="custom-select">
+          <select>
+            <option value="0">Välj Konsol:</option>
+            <option value="1">Color Tv Game</option>
+            <option value="2">Nes</option>
+            <option value="3">Snes</option>
+            <option value="4">Nintendo 64</option>
+            <option value="5">GameCube</option>
+            <option value="6">Wii</option>
+            <option value="7">Wii u</option>
+            <option value="8">Nintendo Switch</option>
+          </select>
+        </div>
+
     </main>
 
     <div class="grid-container">
