@@ -45,9 +45,30 @@ table {/* Placera tablen i mitten */
     margin-top: 25px;
     margin-left: 45%;
 }
+article {
+    width: 100px;
+    height: 100px;
+    margin-left: 43.5%;
+    background: rgb(255, 100, 100);
+    transition: width 2s;
+    transform: rotate(69deg);
+  }
+  article:hover {
+    width: 300px;
+  }
+svg{
+    width: 100px;
+    height: 100px;
+    margin-left: 48%;
+}
 ol{
     text-align: center;
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+  
 @media screen and (max-width:500px) {/* Placera forms och table mer till vänster vid en viss bred på sidan */
     form {
         margin-left: 0;
@@ -56,6 +77,12 @@ ol{
         margin-left: 0;
     }
     textarea{
+        margin-left: 0;
+    }
+    svg {
+        margin-left: 0;
+    }
+    article{
         margin-left: 0;
     }
 }
