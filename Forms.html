@@ -180,7 +180,7 @@
            <label for="birthday">Birthday:</label>
            <input type="date" id="birthday" name="birthday">
            <label for="tel">Telefon-Nummer:</label>
-           <input type="text" id="tel" name="tel">
+           <input type="text" id="tel" name="tel"  placeholder="070 123-45-67">
            <input type="hidden" id="weedId" name="weedId" value="420">
            <label for="email">Email</label>
            <input type="text" id="email" name="email">
@@ -190,7 +190,8 @@
 
          <div>
           <select>
-            <option value="0">Välj Konsol:</option>
+            <optgroup label="Välj Konsol:">
+            <option value="0">Välj Konsol</option>
             <option value="1">Color Tv Game</option>
             <option value="2">Nes</option>
             <option value="3">Snes</option>
@@ -199,17 +200,22 @@
             <option value="6">Wii</option>
             <option value="7">Wii u</option>
             <option value="8">Nintendo Switch</option>
+          </optgroup>
+            
           </select>
         </div>
 
     </main>
+
+    
+    <progress id="file" value="69" max="100"> 69% </progress>
 
     <div class="grid-container">
         <div class="grid-item">
             <a href=Index.html>Home</a>
         </div>
     </div>
-
+    
 
     <footer role="contentinfo">
         <p>Information<br>

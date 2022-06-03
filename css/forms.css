@@ -26,9 +26,6 @@ body {/* så att footern och min lokal meny lägger sig längst ner */
     grid-template-columns: auto;
     grid-template-rows: auto auto 1fr auto;
 }
-div{
-    margin-top: 10px;
-}
 p{
     font-weight: 600;
 }
@@ -74,7 +71,18 @@ fieldset{
 select{
     margin-left: 47.5%;
 }
-  
+input:required{
+    background-color: burlywood;
+}
+input:optional{
+    background-color: #ed3d3d;
+}
+main + progress{
+    margin-left: 46%;
+}
+progress ~ div {
+margin-top: 10px;
+}
 @media screen and (max-width:500px) {/* Placera forms och table mer till vänster vid en viss bred på sidan */
     form {
         margin-left: 0;
@@ -89,6 +97,9 @@ select{
         margin-left: 0;
     }
     article{
+        margin-left: 0;
+    }
+    progress{
         margin-left: 0;
     }
 }

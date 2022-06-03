@@ -34,6 +34,11 @@ table {/* ändrar table position */
     background-color: black;
     color: white;
 }
+caption{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
 
 th {/* bakgrundsfärg för den tredje tabeln */
     background-color: red;
