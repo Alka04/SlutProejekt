@@ -58,6 +58,9 @@ tr:nth-child(odd) {/* zebra striping */
 .fyra {/* sätter texten i mitten */
     text-align: center;
 }
+th::after{
+    content: ":";
+}
 
 @media screen and (max-width: 920px) {/* gör tabeln mindre så att det ser bra ut */
     table {

@@ -48,6 +48,7 @@ body {
 h1 {
     /* gör lite mellanrum mellan huvudtexten och allt annat */
     padding: 10px;
+    font-size: 6vmin;
 }
 
 .grid-container {

@@ -34,19 +34,19 @@
         </nav>
     </header>
 
-    <audio autoplay loop>
+    <audio autoplay loop><!-- Sätter backgrunds musik -->
         <source src="audio/Emusic.mp3" type="audio/mp3">
     </audio>
 
     <main role="main">
-        <form action="index.html" method="GET">
+        <form action="index.html" method="GET"> <!-- Skappar en forms och med hjälp av div så stätts allt under varandra samt i mitten -->
             <div>
-            <label for="fn">Förnamn: </label>
-            <input type="text" id="fn" name="fn" required>
+            <label for="fn">Förnamn: </label><!-- Definerar en label till oluika elemet t.ex. input -->
+            <input type="text" id="fn" name="fn" required><!-- Här skriver du in olika typer av data -->
             </div>
             <div>
             <label for="en">Efternamn: </label>
-            <input type="text" id="en" name="en">
+            <input type="text" id="en" name="en" >
             </div>
             <div>
             <label for="pwd">Lösenord:</label>
@@ -54,42 +54,42 @@
             </div>
 
             <p>Välj din favorit Konsol:</p>
-            <div>
+            <div tabindex="0"> <!-- Div med tabindex gör så att när jag klickar på tab så markeras denna diven, så att blinda kan lyssna -->
             <input type="radio" id="Color_Tv_Game" name="favoritspråk" value="Color_Tv_Game">
             <label for="Color_Tv_Game">Color Tv Game</label>
             </div>
-            <div>
+            <div tabindex="0">
             <input type="radio" id="nes" name="favoritspråk" value="nes">
             <label for="nes">Nintendo Entertainment System</label>
             </div>
-            <div>
+            <div tabindex="0">
             <input type="radio" id="Snes" name="favoritspråk" value="snes">
             <label for="Snes"> Super Nintendo Entertainment System</label>
             </div>
-            <div>
+            <div tabindex="0">
             <input type="radio" id="N64" name="favoritspråk" value="N64">
             <label for="N64">Nintendo 64</label>
             </div>
-            <div>
+            <div tabindex="0">
             <input type="radio" id="GameCube" name="favoritspråk" value="GameCube">
             <label for="GameCube">GameCube</label>
             </div>
-            <div>
+            <div tabindex="0">
             <input type="radio" id="Wii" name="favoritspråk" value="Wii" checked>
             <label for="Wii">Wii</label>
             </div>
-            <div>
-            <input type="radio" id="Wii_u" name="favoritspråk" value="Wii_u">
+            <div tabindex="0">
+            <input type="radio" id="Wii_u" name="favoritspråk" value="Wii_u"><!-- Radiobutton gör så att bara en knapp kan vara checkad samtidigt -->
             <label for="Wii_u">Wii u</label>
             </div>
-            <div>
+            <div tabindex="0">
             <input type="radio" id="nsw" name="favoritspråk" value="nsw">
             <label for="nsw">Nintendo switch</label>
             </div>
             
             <p>Vilken eller vilka konsoeler har du hemma:</p>
             <div>
-            <input type="checkbox" id="Color_Tv_Game2" value="Color_Tv_Game2">
+            <input type="checkbox" id="Color_Tv_Game2" value="Color_Tv_Game2"> <!-- Checkbox gör så att man kan markera flera lådor samtidigt -->
             <label for="Color_Tv_Game2">Color Tv Game</label>
             </div>
             <div>
@@ -122,21 +122,35 @@
             </div>
             <p>Något övrigt du vill tillägga:</p>
             <div>
-              <textarea id="chill" name="chill"></textarea>
+              <textarea id="chill" name="chill"></textarea> <!-- text area gör så att man kan skriva vad man vill i en liten ruta -->
+            </div>
+            <div>
+            <label for="konsol">Välj din favvo konsol från listan:</label>
+            <input list="konsol" name="konsoler" id="konsoler">
+            <datalist id="konsol"> <!-- En lista som man kan skriva och den uppdatera sig efter det du har skrivit -->
+              <option value="Color Tv Game">
+              <option value="NES">
+              <option value="SNES">
+              <option value="Nintendo 64">
+              <option value="GameCube">
+              <option value="Wii">
+              <option value="Wii U">
+              <option value="Nintendo Switch">
+            </datalist>
             </div>
             <div>
             <input type="submit" value="submit">
             </div>
         </form>
 
-        <table>
-            <thead>
+        <table> <!-- Skapar en tabel -->
+            <thead> <!-- skapar tabel huvudet -->
               <tr>
                 <th>Mina Top 3</th>
                 <th>Konsoler</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody> <!-- skapar tabel kroppen -->
               <tr>
                 <td>1.</td>
                 <td>Wii</td>
@@ -146,7 +160,7 @@
                 <td>Switch</td>
               </tr>
             </tbody>
-            <tfoot>
+            <tfoot> <!-- Skapar botten av tabellen -->
               <tr>
                 <td>3. </td>
                 <td>GameCube</td>
@@ -155,42 +169,49 @@
           </table>
 
 
-          <dl>
+          <dl> <!-- detaljerad lista -->
             <dt>Varför Är Wii min Favvo Konsol</dt>
             <dd>Spelade på Konsolen när jag var ung</dd>
             <dd>Revolutionerande teknologi</dd>
             <dd>Overall bästa konsolen</dd>
           </dl>
 
-          <ol start="1">
+          <section> <!-- En sektion av sidan -->
+            <h2>Wii Boy</h2>
+            <p>Portabled wii (moddat).</p>
+          </section>
+
+          <ol start="1"><!-- en Ordrad lista som startar med 1 -->
             <li>Pepsi Max</li>
             <li>Coca-Cola</li>
             <li>Clean</li>
           </ol>
 
-          <article><h2>Square Or Not</h2></article>
+          <article> <!-- En artikel av sidan -->
+            <h2>Square Or Not</h2>
+          </article>
 
           <svg> <!--gör en form utan att behöva använda sig av bilder, man gör formen själv, i detta fallet skapas en cirkel-->
             <circle cx="50" cy="50" r="40" stroke="Purple" stroke-width="4" fill="Pink" />
         </svg>
 
         <form>
-          <fieldset>
+          <fieldset> <!-- skapar en låda runt alla labels och inputs men lämnar utrymme för legend att stå i låd ramen -->
            <legend>När fyller du år?:</legend>
            <label for="birthday">Birthday:</label>
            <input type="date" id="birthday" name="birthday">
            <label for="tel">Telefon-Nummer:</label>
            <input type="text" id="tel" name="tel"  placeholder="070 123-45-67">
-           <input type="hidden" id="weedId" name="weedId" value="420">
+           <input type="hidden" name="weedId" value="420">
            <label for="email">Email</label>
            <input type="text" id="email" name="email">
-           <input type="hidden" id="eliteId" name="eliteId" value="1337">
+           <input type="hidden" name="eliteId" value="1337">
           </fieldset>
          </form>
 
          <div>
-          <select>
-            <optgroup label="Välj Konsol:">
+          <select> <!-- Skapar en dropmeny för olika alternativ i options -->
+            <optgroup label="Välj Konsol:"> <!-- optgroup gör så att options grupperar sig men i mitt fall så står bara optgoup namnet längst upp på dropdown menyn -->
             <option value="0">Välj Konsol</option>
             <option value="1">Color Tv Game</option>
             <option value="2">Nes</option>
@@ -203,12 +224,14 @@
           </optgroup>
             
           </select>
+
+          
         </div>
 
     </main>
 
     
-    <progress id="file" value="69" max="100"> 69% </progress>
+    <progress id="file" value="85" max="100"> 85% </progress> <!-- En progress bar som visar hur långt man har kommit på sidan -->
 
     <div class="grid-container">
         <div class="grid-item">
